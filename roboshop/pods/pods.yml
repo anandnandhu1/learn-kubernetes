@@ -14,6 +14,7 @@ kind: Service
 metadata:
   name: frontend-roboshop
 spec:
+  type: NodePort
   selector:
     component: frontend
   ports:
